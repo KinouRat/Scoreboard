@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: midnightblue;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+@font-face{
+    font-family: 'digital-clock-font';
+    src: url(digital-7.monoitalic.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background-color:black;
+    width: 126px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 90px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.scoreBtn {
+  background-color: midnightblue;
+  outline-color: white;
+  color: white;
+  border-color: white;
+  border-radius: 15%;
+  margin-bottom: 10px;
+}
+
+.reset {
+    background-color: maroon;
+    color: white;
+    border-color: red;
+    border-radius: 30%
+}
